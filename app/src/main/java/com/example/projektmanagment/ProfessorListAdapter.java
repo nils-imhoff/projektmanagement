@@ -29,8 +29,9 @@ public class ProfessorListAdapter extends ArrayAdapter<Professor> {
         String telefonnummer = getItem(position).getTelefonnummer();
         String faxnummer = getItem(position).getFaxnummer();
         String raumnummer = getItem(position).getRaumnummer();
+        String link = getItem(position).getLink();
 
-        Professor prof = new Professor(name, raumnummer, telefonnummer, faxnummer, email);
+        Professor prof = new Professor(name, raumnummer, telefonnummer, faxnummer, email, link);
         Professor prof2 = getItem(position);
 
         LayoutInflater inflater = LayoutInflater.from(mcontext);
@@ -39,6 +40,7 @@ public class ProfessorListAdapter extends ArrayAdapter<Professor> {
         TextView tvName = (TextView) convertView.findViewById(R.id.textView1);
 
         tvName.setText(name);
+
 
         return convertView;
     }
