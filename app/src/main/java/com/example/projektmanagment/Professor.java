@@ -6,13 +6,24 @@ public class Professor {
     private String telefonnummer;
     private String faxnummer;
     private String email;
+    private String link;
 
-    public Professor(String name, String raumnummer, String telefonnummer, String faxnummer, String email){
+
+    public Professor(String name, String raumnummer, String telefonnummer, String faxnummer, String email, String link){
         this.name = name;
         this.raumnummer =raumnummer;
         this.telefonnummer = telefonnummer;
         this.faxnummer = faxnummer;
         this.email = email;
+        this.link = link;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
     }
 
     public String getName() {
