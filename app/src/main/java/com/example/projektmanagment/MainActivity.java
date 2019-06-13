@@ -127,7 +127,11 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_professor) {
             Intent i = new Intent(this, ProfessorActivity.class);
             startActivity(i);
+        } else if (id == R.id.nav_sekretaer) {
+            Intent i = new Intent(this, SekretaerActivity.class);
+            startActivity(i);
         }
+
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
