@@ -18,6 +18,9 @@
     <string name="title_activity_professor">Professor</string>
     <string name="title_activity_sekretaer">Sekreterin</string>
 
+    <string name="fach_name">Fach</string>
+    <string name="fach_button">Hinzufügen</string>
+
     <string name="links_heading">Nuetzliche Links</string>
     <string name="links_content0">DHBW-Stuttgart Startseite:</string>
     <string name="links_content1">https://www.dhbw-stuttgart.de/home/</string>
