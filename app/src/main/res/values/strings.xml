@@ -8,7 +8,7 @@
     <string name="action_settings">Einstellungen</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_fach">Faecher</string>
     <string name="menu_links">Links</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
@@ -20,6 +20,7 @@
 
     <string name="fach_name">Fach</string>
     <string name="fach_button">Hinzufügen</string>
+    <string name="fach_grad">Verstaendnisgrad</string>
 
     <string name="links_heading">Nuetzliche Links</string>
     <string name="links_content0">DHBW-Stuttgart Startseite:</string>
