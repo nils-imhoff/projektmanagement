@@ -9,7 +9,7 @@
     tools:showIn="@layout/app_bar_fach">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/fach"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/grad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -32,7 +32,7 @@
         android:inputType="textPersonName"
         android:text="@string/fach_grad"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/fach" />
 
     <Button
         android:id="@+id/button"
@@ -42,8 +42,8 @@
         android:layout_marginLeft="24dp"
         android:text="@string/fach_button"
         android:onClick="sendMessage"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editText2"
-        app:layout_constraintStart_toEndOf="@+id/editText2" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/grad"
+        app:layout_constraintStart_toEndOf="@+id/grad" />
 
     <View
         android:id="@+id/divider"
@@ -55,16 +55,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/grad"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text=""
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
