@@ -1,5 +1,6 @@
 package com.example.projektmanagment;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
@@ -17,25 +18,27 @@ public class VorlesungActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fach);
+        setContentView(R.layout.activity_vorlesung);
 //        Toolbar toolbar = findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
+    public void sendMessage(View view){
+        EditText editVname = (EditText) findViewById(R.id.vname);
+        String vorlesung = editVname.getText().toString();
 
-    /** Called when the user taps the Send button */
-    public void sendMessage(View view)  {
-        Intent intent = new Intent(this, FaecherActivity.class);
-        EditText editFach = findViewById(R.id.fach);
-        String messageFach = editFach.getText().toString();
+        EditText editGrad = (EditText) findViewById(R.id.grad);
+        String grad = editGrad.getText().toString();
 
-        EditText editGrad = findViewById(R.id.grad);
-        String messageGrad = editGrad.getText().toString();
+        Vorlesung kurs = new Vorlesung(vorlesung, grad);
 
-        intent.putExtra(EXTRA_FACH, messageFach);
-//        intent.putExtra(EXTRA_GRAD, messageGrad);
-        startActivity(intent);
+        new AlertDialog.Builder(this)
+                .setTitle("Vorlesung!")
+                .setMessage(kurs.getName())
+                .show();
+
     }
+
 }
 

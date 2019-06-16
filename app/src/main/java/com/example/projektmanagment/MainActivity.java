@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity
 
 
         } else if (id == R.id.nav_fach) {
-            Intent i = new Intent(this, FachActivity.class);
+            Intent i = new Intent(this, VorlesungActivity.class);
             startActivity(i);
 
 

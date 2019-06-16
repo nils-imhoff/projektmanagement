@@ -35,4 +35,6 @@
     <string name="links_content9">https://www.dhbw-stuttgart.de/themen/internationales/auslandsaufenthalte/</string>
     <string name="links_content10">Moodle:</string>
     <string name="links_content11">https://elearning.dhbw-stuttgart.de/moodle/</string>
+    <string name="dialog_message">Done</string>
+    <string name="dialog_title">Vorlesung!</string>
 </resources>
