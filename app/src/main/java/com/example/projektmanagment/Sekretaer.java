@@ -6,13 +6,15 @@ public class Sekretaer {
     private String telefonnummer;
     private String faxnummer;
     private String email;
+    private String oeffnung;
 
-    public Sekretaer(String name, String raumnummer, String telefonnummer, String faxnummer, String email) {
+    public Sekretaer(String name, String raumnummer, String telefonnummer, String faxnummer, String email, String oeffnung) {
         this.name = name;
         this.raumnummer = raumnummer;
         this.telefonnummer = telefonnummer;
         this.faxnummer = faxnummer;
         this.email = email;
+        this.oeffnung = oeffnung;
     }
 
     public String getName() {
@@ -53,5 +55,13 @@ public class Sekretaer {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getOeffnung() {
+        return oeffnung;
+    }
+
+    public void setOeffnung(String oeffnung) {
+        this.oeffnung = oeffnung;
     }
 }

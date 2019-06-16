@@ -29,8 +29,9 @@ public class SekretaerListAdapter extends ArrayAdapter<Sekretaer> {
         String telefonnummer = getItem(position).getTelefonnummer();
         String faxnummer = getItem(position).getFaxnummer();
         String raumnummer = getItem(position).getRaumnummer();
+        String oeffnung = getItem(position).getOeffnung();
 
-        Sekretaer sek = new Sekretaer(name, raumnummer, telefonnummer, faxnummer, email);
+        Sekretaer sek = new Sekretaer(name, raumnummer, telefonnummer, faxnummer, email, oeffnung);
         Sekretaer sek2 = getItem(position);
 
         LayoutInflater inflater = LayoutInflater.from(mcontext);
