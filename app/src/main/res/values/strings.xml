@@ -14,9 +14,9 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="menu_professor">Professoren</string>
-    <string name="menu_sekretaer">Sekreteriate</string>
+    <string name="menu_sekretaer">Sekretariate</string>
     <string name="title_activity_professor">Professor</string>
-    <string name="title_activity_sekretaer">Sekreterin</string>
+    <string name="title_activity_sekretaer">Sekretariate</string>
 
     <string name="links_heading">Nuetzliche Links</string>
     <string name="links_content0">DHBW-Stuttgart Startseite:</string>
