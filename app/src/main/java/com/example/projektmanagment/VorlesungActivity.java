@@ -33,6 +33,8 @@ public class VorlesungActivity extends AppCompatActivity {
 
         Vorlesung kurs = new Vorlesung(vorlesung, grad);
 
+        setContentView(R.layout.activity_vorlesung_liste);
+
         new AlertDialog.Builder(this)
                 .setTitle("Vorlesung!")
                 .setMessage(kurs.getName())
