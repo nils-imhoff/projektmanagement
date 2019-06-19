@@ -21,19 +21,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.Menu;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.view.ViewAnimationUtils;
-import android.widget.Button;
-import android.widget.EditText;
 
-import android.widget.ListView;
-
-import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
-
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 
 
@@ -41,6 +29,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+
 
 
     @Override
