@@ -9,7 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VorlesungActivity"></activity>
+        <activity
+            android:name=".VorlesungActivity"
+            android:label="Vorlesung"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.projektmanagment.MainActivity" />
+        </activity>
+        <activity
+            android:name=".VorlesungListActivity"
+            android:label="Vorlesungen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.projektmanagment.MainActivity" />
+        </activity>
         <activity
             android:name=".ProfessorActivity"
             android:label="@string/title_activity_professor"

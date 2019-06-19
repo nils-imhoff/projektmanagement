@@ -17,7 +17,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/fach_name"
+        android:text="@string/vorlesung_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -30,7 +30,7 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/fach_grad"
+        android:text="@string/vorlesung_grad"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vname" />
 
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:text="@string/fach_button"
+        android:text="@string/vorlesung_button"
         android:onClick="sendMessage"
         app:layout_constraintBaseline_toBaselineOf="@+id/grad"
         app:layout_constraintStart_toEndOf="@+id/grad" />

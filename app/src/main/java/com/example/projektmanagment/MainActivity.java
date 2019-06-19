@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity
             navigationView.setNavigationItemSelectedListener(this);
 
 
-        } else if (id == R.id.nav_fach) {
+        } else if (id == R.id.nav_vorlesung) {
             Intent i = new Intent(this, VorlesungActivity.class);
             startActivity(i);
 
