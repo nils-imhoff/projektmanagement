@@ -8,7 +8,7 @@
     <string name="action_settings">Einstellungen</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_vorlesung">Vorlesung</string>
     <string name="menu_links">Links</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
@@ -17,6 +17,10 @@
     <string name="menu_sekretaer">Sekretariate</string>
     <string name="title_activity_professor">Professor</string>
     <string name="title_activity_sekretaer">Sekretariate</string>
+
+    <string name="vorlesung_name">Vorlesung</string>
+    <string name="vorlesung_button">Hinzufügen</string>
+    <string name="vorlesung_grad">Verstaendnisgrad</string>
 
     <string name="links_heading">Nuetzliche Links</string>
     <string name="links_content0">DHBW-Stuttgart Startseite:</string>
@@ -31,4 +35,6 @@
     <string name="links_content9">https://www.dhbw-stuttgart.de/themen/internationales/auslandsaufenthalte/</string>
     <string name="links_content10">Moodle:</string>
     <string name="links_content11">https://elearning.dhbw-stuttgart.de/moodle/</string>
+    <string name="dialog_message">Done</string>
+    <string name="dialog_title">Vorlesung!</string>
 </resources>
