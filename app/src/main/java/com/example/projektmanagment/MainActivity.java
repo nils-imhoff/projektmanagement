@@ -105,6 +105,10 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(this, VorlesungActivity.class);
             startActivity(i);
 
+        } else if (id == R.id.nav_aufgabe) {
+            Intent i = new Intent(this, AufgabeActivity.class);
+            startActivity(i);
+
 
         } else if (id == R.id.nav_links) {
             setContentView(R.layout.activity_links);
