@@ -25,6 +25,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.projektmanagment.MainActivity" />
         </activity>
+         <activity
+            android:name=".AufgabeActivity"
+            android:label="Aufgabe"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.projektmanagment.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AufgabeListActivity"
+            android:label="Aufgaben"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.projektmanagment.MainActivity" />
+        </activity>
         <activity
             android:name=".ProfessorActivity"
             android:label="@string/title_activity_professor"

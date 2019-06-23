@@ -9,6 +9,7 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_vorlesung">Vorlesung</string>
+    <string name="menu_aufgabe">Aufgabe</string>
     <string name="menu_links">Links</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
@@ -21,6 +22,10 @@
     <string name="vorlesung_name">Vorlesung</string>
     <string name="vorlesung_button">Hinzufügen</string>
     <string name="vorlesung_grad">Verstaendnisgrad</string>
+
+    <string name="aufgabe_name">Aufgabe</string>
+    <string name="aufgabe_button">Hinzufügen</string>
+    <string name="aufgabe_text">Text</string>
 
     <string name="links_heading">Nuetzliche Links</string>
     <string name="links_content0">DHBW-Stuttgart Startseite:</string>
